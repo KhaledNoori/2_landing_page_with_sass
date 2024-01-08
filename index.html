@@ -1,36 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SoftWeb.com</title>
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
+   <!-- hrader -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark menu fixed-top shadow ">
+            <div class="container">
+              <a class="navbar-brand" href="#">SoftWeb.com</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">محصولات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">خدمات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">گالری</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">درباره ما</a>
+                  </li>
+                </ul>
+                
+                    <a class="btn btn-rounded-primary me-3" href="#">ورود به اکانت</a>
+             
+            </div>
+          </nav>
+    </header>
 
-<div class="container">
+    <!-- intro -->
+    <section class="intro">
+        <div class="container my-5">
+            <div class="row align-items-center gy-5 ">
+                <div class="col-lg-6 text-white">
+                    <h1 class=" fs-3 fw-bold mb-4"> لورم ایپسوم متن ساختگی </h1>
+                    <p class="fs-5 lh-lg">لورم ایپسوم متن ساختگی  با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است . </p>
+                    <button class="btn btn-rounded-primary">لورم ایپسوم</button>
+                </div>
+                <div class="col-lg-6 text-start">
+                    <img class="img-fluid" src="./assets/images/intro/1.png" alt="">
+                </div>
 
-    <div class="row">
-        <div class="col-12">
+            </div>
+        </div>
+        <div style="height: 150px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.00,50.10 C150.00,150.33 349.20,-50.10 500.00,50.10 L500.00,150.33 L-0.00,150.33 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </section>
 
-            <p class=" text-primary ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint libero pariatur commodi reiciendis quis provident, aut quod tenetur deserunt laboriosam, veritatis autem tempora odio asperiores iste. Dolores quia hic officiis.</p>
-    
-            <button class="btn btn-primary ">button</button>
-           <br>
-            <input class=" form-control" type="text">
-            <br>
-            <button class="btn btn-secondary">button</button>
-            
-            <br>
-            <button class="btn btn-red-dark">button</button>
-
-            <br>
-            <button class="btn btn-red-light ">button</button>
-    </div>
-</div>
-
-    
-
-  
+ <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

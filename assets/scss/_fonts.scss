@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Khaled";
+    src: url("../fonts/khaled.eot");
+    src: url("/fonts/khaled.eot?#iefix") format("embedded-opentype"),
+
+       url("/fonts/khaled.woff2") format("woff2"),
+       url("/fonts/khaled.woff") format("woff"),
+       url("fonts/khaled.ttf")format("troutype");
+
+ }
+
+ body {
+    font-family: "Khaled" !important;
+ }

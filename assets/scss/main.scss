@@ -1,13 +1,10 @@
 
 // Customer varible
 
-$primary: #198754;
+$primary: #f83600;
 
+$secondary:#fe8c00;
 
-$warning: #0dcaf0;
-
-$secondary:#fd7e14;
-$light: #0d6efd;
 
 
 // Create your own map
@@ -23,6 +20,13 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
+    //  import bootstrap
+ 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-
-@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+    //  import app
+ @import './components/mixins';
+ @import './components/buttons';
+@import './fonts';
+@import './navbar'; 
+@import './intro';
