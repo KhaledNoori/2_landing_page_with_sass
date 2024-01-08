@@ -1,0 +1,28 @@
+
+// Customer varible
+
+$primary: #198754;
+
+
+$warning: #0dcaf0;
+
+$secondary:#fd7e14;
+$light: #0d6efd;
+
+
+// Create your own map
+$custom-colors: (
+  "red-dark": #900,
+  "red-light": rgb(213, 81, 81)
+);
+
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import "../../node_modules/bootstrap/scss/variables";
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
