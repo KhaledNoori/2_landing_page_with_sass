@@ -1,9 +1,8 @@
-
 // Customer varible
 
 $primary: #f83600;
 
-$secondary:#fe8c00;
+$secondary: #fe8c00;
 
 
 
@@ -20,13 +19,16 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
-    //  import bootstrap
- 
+//  import bootstrap
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-    //  import app
- @import './components/mixins';
- @import './components/buttons';
+//  import app
+@import './components/mixins';
+@import './components/buttons';
+@import './components/heading-line';
+@import './components/service';
 @import './fonts';
-@import './navbar'; 
+@import './navbar';
 @import './intro';
+// @import './service';
