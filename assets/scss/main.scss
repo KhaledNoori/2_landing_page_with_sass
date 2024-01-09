@@ -29,6 +29,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import './components/heading-line';
 @import './components/service';
 @import './components/comments';
+@import './components/faq';
 @import './fonts';
 @import './navbar';
-@import './intro'; 
+@import './intro';
+  
