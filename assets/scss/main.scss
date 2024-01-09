@@ -31,6 +31,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import './components/comments';
 @import './components/faq';
 @import './components/gallary';
+@import './components/foot';
+@import './components/foot';
 @import './fonts';
 @import './navbar';
 @import './intro'; 
@@ -38,3 +40,4 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 
+ 
