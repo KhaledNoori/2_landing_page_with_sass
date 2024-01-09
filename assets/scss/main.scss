@@ -30,7 +30,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import './components/service';
 @import './components/comments';
 @import './components/faq';
+@import './components/gallary';
 @import './fonts';
 @import './navbar';
-@import './intro';
+@import './intro'; 
   
+
+
+
