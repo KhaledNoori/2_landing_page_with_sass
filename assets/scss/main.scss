@@ -35,9 +35,4 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import './components/foot';
 @import './fonts';
 @import './navbar';
-@import './intro'; 
-  
-
-
-
- 
+@import './intro';
